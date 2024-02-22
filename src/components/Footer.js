@@ -11,20 +11,31 @@ export const Footer = () => {
       <Container className="text-center">
         <Row>
           <Col sm={12} md={4} className="text-center">
-           <a href="home"><img src={logo} alt="Logo" /> </a>
+            <a href="#home">
+              <img src={logo} alt="Logo" />{" "}
+            </a>
           </Col>
-          <Col sm={12} md={4} ><p className="glow">Vicky Kumar</p></Col>
+          <Col sm={12} md={4}>
+            <p className="glow">Vicky Kumar</p>
+          </Col>
           <Col sm={12} md={4} className="text-center">
             <div className="social-icon">
-            <a href="https://www.linkedin.com/in/vicky-kumar1001/"><img src={navIcon1} alt="linkedin" /></a>
-            <a href="https://github.com/Vickykumar1001"><img src={navIcon2} alt="github" /></a>
-            <a href="https://www.instagram.com/vicky_kumar1001/"><img src={navIcon3} alt="instagram" /></a>
-            <a href="https://twitter.com/Vicky_Kumar1001"><img src={navIcon4} alt="twitter" /></a>
+              <a href="https://www.linkedin.com/in/vicky-kumar1001/">
+                <img src={navIcon1} alt="linkedin" />
+              </a>
+              <a href="https://github.com/Vickykumar1001">
+                <img src={navIcon2} alt="github" />
+              </a>
+              <a href="https://www.instagram.com/vicky_kumar1001/">
+                <img src={navIcon3} alt="instagram" />
+              </a>
+              <a href="https://twitter.com/Vicky_Kumar1001">
+                <img src={navIcon4} alt="twitter" />
+              </a>
             </div>
           </Col>
         </Row>
-        
       </Container>
     </footer>
-  )
-}
+  );
+};
