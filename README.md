@@ -1,6 +1,9 @@
 # Personal Portfolio
 
 Welcome to my personal portfolio repository! This repository contains the source code for my personal portfolio website.
+
+## Demo
+
 ![Portfolio Screenshot](demo.gif)
 
 ## Introduction
