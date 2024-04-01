@@ -1,6 +1,7 @@
 # Personal Portfolio
 
 Welcome to my personal portfolio repository! This repository contains the source code for my personal portfolio website.
+![Portfolio Screenshot](demo.gif)
 
 ## Introduction
 
@@ -32,6 +33,12 @@ To run this project locally, follow these steps:
 4. Start the development server:
    ```bash
    npm start
-   Usage
-   Feel free to use this project as a template for your own personal portfolio website. Customize it to your liking by modifying the React components, styling, and content. Add your own projects, skills, experiences, and education to showcase your abilities effectively.
    ```
+
+## Usage
+
+Feel free to use this project as a template for your own personal portfolio website. Customize it to your liking by modifying the React components, styling, and content. Add your own projects, skills, experiences, and education to showcase your abilities effectively.
+
+```
+
+```
