@@ -39,6 +39,12 @@ export const Experience = () => {
                         Swagger UI and Postman for ease of understanding and
                         future maintenance.
                       </li>
+                      <li>
+                        Collaborated actively with the Frontend team to
+                        integrate robust API solutions, achieving optimal
+                        alignment and interactivity between client‐ side and
+                        server‐side components.
+                      </li>
                     </ul>
                   </Col>
                 </Row>

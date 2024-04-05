@@ -4,8 +4,8 @@ import logo from "../assets/img/logo.png";
 import logo2 from "../assets/img/profile-pic.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
-import navIcon4 from "../assets/img/nav-icon4.svg";
+import navIcon3 from "../assets/img/nav-icon5.svg";
+import navIcon4 from "../assets/img/nav-icon6.svg";
 import "animate.css";
 import { BrowserRouter as Router } from "react-router-dom";
 
@@ -62,7 +62,7 @@ export const NavBar = () => {
               >
                 Home
               </Nav.Link>
-              <Nav.Link
+              {/* <Nav.Link
                 href="#education"
                 className={
                   activeLink === "education"
@@ -72,7 +72,7 @@ export const NavBar = () => {
                 onClick={() => onUpdateActiveLink("education")}
               >
                 Education
-              </Nav.Link>
+              </Nav.Link> */}
               <Nav.Link
                 href="#experience"
                 className={
@@ -84,7 +84,7 @@ export const NavBar = () => {
               >
                 Experience
               </Nav.Link>
-              <Nav.Link
+              {/* <Nav.Link
                 href="#skills"
                 className={
                   activeLink === "skills" ? "active navbar-link" : "navbar-link"
@@ -92,7 +92,7 @@ export const NavBar = () => {
                 onClick={() => onUpdateActiveLink("skills")}
               >
                 Skills
-              </Nav.Link>
+              </Nav.Link> */}
               <Nav.Link
                 href="#projects"
                 className={
@@ -104,6 +104,16 @@ export const NavBar = () => {
               >
                 Projects
               </Nav.Link>
+              <Nav.Link
+                href="https://drive.google.com/file/d/1HwZ6geY0-0jlaENHBQDMKvhr98CpYPlr/view"
+                target="_blank"
+                className={
+                  activeLink === "resume" ? "active navbar-link" : "navbar-link"
+                }
+                onClick={() => onUpdateActiveLink("resume")}
+              >
+                Resume
+              </Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
@@ -113,11 +123,11 @@ export const NavBar = () => {
                 <a href="https://github.com/Vickykumar1001">
                   <img src={navIcon2} alt="github" />
                 </a>
-                <a href="https://www.instagram.com/vicky_kumar1001/">
-                  <img src={navIcon3} alt="instagram" />
+                <a href="https://leetcode.com/vicky1001/">
+                  <img src={navIcon3} alt="leetcode" />
                 </a>
-                <a href="https://twitter.com/Vicky_Kumar1001">
-                  <img src={navIcon4} alt="twitter" />
+                <a href="https://auth.geeksforgeeks.org/user/vicky1001">
+                  <img src={navIcon4} alt="geeksforgeeks" />
                 </a>
               </div>
             </span>
